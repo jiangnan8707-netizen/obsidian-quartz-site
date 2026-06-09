@@ -8,14 +8,14 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "我的 Obsidian 笔记",
+    pageTitle: "New Lights 知识库",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: null,
     locale: "zh-CN",
     baseUrl: "jiangnan8707-netizen.github.io/obsidian-quartz-site",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "tmp"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
