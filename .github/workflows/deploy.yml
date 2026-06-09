@@ -38,7 +38,7 @@ jobs:
         run: npm ci
 
       - name: Build site
-        run: npx quartz build
+        run: npm run quartz -- build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
